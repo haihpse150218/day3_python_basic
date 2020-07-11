@@ -1,4 +1,5 @@
-# Python Basics
+
+# Python Basics (tất cả các link đã được chọn lọc, đọc cẩn thận giúp bạn có base mạnh hơn nên đừng tiết 5s chờ rồi nhấn bỏ qua nhé ! than)
 
 ![Python Logo](python_logo.png)
 
