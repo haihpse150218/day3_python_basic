@@ -1,11 +1,11 @@
 
-# Python Basics (tất cả các link đã được chọn lọc, đọc cẩn thận giúp bạn có base mạnh hơn nên đừng tiết 5s chờ rồi nhấn bỏ qua nhé ! than)
+# Python Basics (tất cả các link đã được chọn lọc, đọc cẩn thận giúp bạn có base mạnh hơn nên đừng tiết 5s chờ rồi nhấn bỏ qua nhé !)
 
 ![Python Logo](python_logo.png)
 
 [Python](http://raboninco.com/1KIPF) là một ngôn ngữ lập trình, được ra mắt lần đầu tiên vào năm 1991.
 
-Như nhiều ngôn ngữ lập trình khác, Python đã phát triển theo thời gian. Phiên bản Python 3 được giới thiệu vào năm 2008. Đây là bản hiệu chỉnh lớn của ngôn ngữ lập trình Python nhưng không hoàn toàn tương thích ngược [(backward-compatible)](http://raboninco.com/1KIPo) với Python 2, mặc dù Python 3 đã có rất nhiều mã lệnh (code) được viết cho phiên bản Python 2. Tại INTEK, chúng tôi yêu cầu tất cả mã nguồn bạn viết PHẢI tương thích với **Python 3**.
+Như nhiều ngôn ngữ lập trình khác, Python đã phát triển theo thời gian. Phiên bản Python 3 được giới thiệu vào năm 2008. Đây là bản hiệu chỉnh lớn của ngôn ngữ lập trình Python nhưng không hoàn toàn tương thích ngược [(backward-compatible)](http://raboninco.com/1KIPo) với Python 2, mặc dù Python 3 đã có rất nhiều mã lệnh (code) được viết cho phiên bản Python 2. chúng tôi khuyên tất cả mã nguồn bạn viết PHẢI tương thích với **Python 3**.
 
 ## Giới thiệu
 
