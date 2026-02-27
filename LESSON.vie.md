@@ -1,11 +1,11 @@
 
-# Python Basics (tất cả các link đã được chọn lọc, đọc cẩn thận giúp bạn có base mạnh hơn nên đừng tiết 5s chờ rồi nhấn bỏ qua nhé !)
+# Python Basics (tất cả các link đã được chọn lọc, đọc cẩn thận giúp bạn có base mạnh hơn nên đừng tiết nhé !)
 
 ![Python Logo](python_logo.png)
 
-[Python](http://raboninco.com/1KIPF) là một ngôn ngữ lập trình, được ra mắt lần đầu tiên vào năm 1991.
+[Python](https://www.python.org/) là một ngôn ngữ lập trình, được ra mắt lần đầu tiên vào năm 1991.
 
-Như nhiều ngôn ngữ lập trình khác, Python đã phát triển theo thời gian. Phiên bản Python 3 được giới thiệu vào năm 2008. Đây là bản hiệu chỉnh lớn của ngôn ngữ lập trình Python nhưng không hoàn toàn tương thích ngược [(backward-compatible)](http://raboninco.com/1KIPo) với Python 2, mặc dù Python 3 đã có rất nhiều mã lệnh (code) được viết cho phiên bản Python 2. chúng tôi khuyên tất cả mã nguồn bạn viết PHẢI tương thích với **Python 3**.
+Như nhiều ngôn ngữ lập trình khác, Python đã phát triển theo thời gian. Phiên bản Python 3 được giới thiệu vào năm 2008. Đây là bản hiệu chỉnh lớn của ngôn ngữ lập trình Python nhưng không hoàn toàn tương thích ngược [(backward-compatible)](https://en.wikipedia.org/wiki/Backward_compatibility) với Python 2, mặc dù Python 3 đã có rất nhiều mã lệnh (code) được viết cho phiên bản Python 2. chúng tôi khuyên tất cả mã nguồn bạn viết PHẢI tương thích với **Python 3**.
 
 ## Giới thiệu
 
@@ -42,21 +42,21 @@ Tốt hơn rồi!
 
 ## Các kiểu dữ liệu nguyên thủy
 
-[Lập trình](http://raboninco.com/1KIQR), hay nói chung là [khoa học máy tính](http://raboninco.com/1KIQp), là nghệ thuật xử lý và biến đổi dữ liệu.
+[Lập trình](https://en.wikipedia.org/wiki/Computer_program), hay nói chung là [khoa học máy tính](https://en.wikipedia.org/wiki/Computer_science), là nghệ thuật xử lý và biến đổi dữ liệu.
 
-Một dữ liệu đại diện cho một **value** (giá trị) dưới một [**type**](http://raboninco.com/1KIRl) (kiểu). Python hỗ trợ được nhiều [kiểu dữ liệu nguyên thủy](http://raboninco.com/1KIS6). Dưới đây là danh sách (chưa đầy đủ) các kiểu dữ liệu mà Python hỗ trợ:
+Một dữ liệu đại diện cho một **value** (giá trị) dưới một [**type**](https://en.wikipedia.org/wiki/Data_type) (kiểu). Python hỗ trợ được nhiều [kiểu dữ liệu nguyên thủy](https://en.wikipedia.org/wiki/Primitive_data_type). Dưới đây là danh sách (chưa đầy đủ) các kiểu dữ liệu mà Python hỗ trợ:
 
 | Kiểu dữ liệu                                                                   | Mô tả                                                                                                                    | Ví dụ                                                                                                                     |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| [Integer](http://raboninco.com/1KISf) (`int`)                    | Bất kỳ số đếm nào cả số dương lẫn số âm, kể cả số không                                                                    | `0`, `1`, `3`, `-2`, `-5`, vv..                                                                                              |
-| [Boolean](http://raboninco.com/1KIT4) (`bool`)         | Cho thấy liệu một [sự việc/đề xuất là đúng hay sai](http://raboninco.com/1KITV)                            | [`True` and `False`](http://raboninco.com/1KITq)                                                            |
-| [Float](http://raboninco.com/1KIUD) (`float`)  | Bất kỳ số thực nào                                                                                                               | `3.1415`, `-1.4142135623730951`, v.v.., và cả  `0.0`, `-1.0`, v.v.., Python xem các dữ liệu này là **floats**, không phải **integers**. |
-| [String](<https://en.wikipedia.org/wiki/String_(computer_science)>) (`str`) | Bất kỳ [chuỗi nào của 0 hoặc nhiều ký tự hơn](http://raboninco.com/1KIVZ), được xác định giữa hai dấu ngoặc đơn hoặc ngoặc kép | "Hello, world!, 'How are you doing?', "What's your name?", '"Sa mưa giông" tiếng Anh là gì?', "", vv..                      |
+| [Integer](https://en.wikipedia.org/wiki/Integer) (`int`)                    | Bất kỳ số đếm nào cả số dương lẫn số âm, kể cả số không                                                                    | `0`, `1`, `3`, `-2`, `-5`, vv..                                                                                              |
+| [Boolean](https://en.wikipedia.org/wiki/Boolean_data_type) (`bool`)         | Cho thấy liệu một [sự việc/đề xuất là đúng hay sai](https://www.youtube.com/watch?v=r526yum0EYQ)                            | [`True` and `False`](https://www.youtube.com/watch?v=9OK32jb_TdI)                                                            |
+| [Float](https://en.wikipedia.org/wiki/Floating-point_arithmetic) (`float`)  | Bất kỳ số thực nào                                                                                                               | `3.1415`, `-1.4142135623730951`, v.v.., và cả  `0.0`, `-1.0`, v.v.., Python xem các dữ liệu này là **floats**, không phải **integers**. |
+| [String](<https://en.wikipedia.org/wiki/String_(computer_science)>) (`str`) | Bất kỳ [chuỗi nào của 0 hoặc nhiều ký tự hơn](https://www.youtube.com/watch?v=iAzShkKzpJo), được xác định giữa hai dấu ngoặc đơn hoặc ngoặc kép | "Hello, world!, 'How are you doing?', "What's your name?", '"Sa mưa giông" tiếng Anh là gì?', "", vv..                      |
 
 Trong Python, có  một giá trị đặc biệt: `None`. Giá trị này đại diện cho … không gì cả, một nhận định rỗng, một giá trị rỗng. `None` thường được sử dụng để biểu thị sự không có giá trị. Kiểu của giá trị `None` là `NoneType`.
 
 
-Để xác định [type](http://raboninco.com/1KIWI) (kiểu) của một giá trị cho trước, hãy dùng [hàm dựng sẵn của Python](http://raboninco.com/1KIWb) [`type()`](http://raboninco.com/1KIX6).
+Để xác định [type](https://www.youtube.com/watch?v=_87ASgggEg0) (kiểu) của một giá trị cho trước, hãy dùng [hàm dựng sẵn của Python](https://docs.python.org/3/library/functions.html) [`type()`](https://docs.python.org/3/library/functions.html#type).
 
 Ví dụ:
 
@@ -73,7 +73,7 @@ Ví dụ:
 <class 'NoneType'>
 ```
 
-Để kiểm tra liệu giá trị có thuộc một kiểu cho trước hay không, hãy dùng [hàm dựng sẵn của Python](http://raboninco.com/1KIWb) là [`isinstance()`](http://raboninco.com/1KIXk)
+Để kiểm tra liệu giá trị có thuộc một kiểu cho trước hay không, hãy dùng [hàm dựng sẵn của Python](https://docs.python.org/3/library/functions.html) là [`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance)
 
 Ví dụ:
 
@@ -91,7 +91,7 @@ True
 >>> isinstance("1", int)
 False
 ```
-Tuy nhiên, `None` là trường hợp đặc biệt; Python không hiển thị kiểu [`NoneType`](http://raboninco.com/1KIY7)
+Tuy nhiên, `None` là trường hợp đặc biệt; Python không hiển thị kiểu [`NoneType`](https://docs.python.org/3/c-api/none.html):
 
 ```python
 >>> isinstance(None, NoneType)
@@ -109,7 +109,7 @@ True
 
 ## Các operator (toán tử) số học và biểu thức
 
-[Arithmetic](http://raboninco.com/1KIYh) [expressions](<https://en.wikipedia.org/wiki/Expression_(mathematics)>) (biểu thức số học) gồm các arithmetic terms (số hạng số học) được liên kết với nhau bằng phép toán số học.
+[Arithmetic](https://en.wikipedia.org/wiki/Arithmetic) [expressions](<https://en.wikipedia.org/wiki/Expression_(mathematics)>) (biểu thức số học) gồm các arithmetic terms (số hạng số học) được liên kết với nhau bằng phép toán số học.
 
 ![Expression Operators & Operands](expression_operators_operands_vie.png)
 
@@ -146,7 +146,7 @@ Ví dụ:
 
 ### Số nguyên: Kết quả kiểu dữ liệu với operator (toán tử) phép chia
 
-Kiểu dữ liệu kết quả của biểu thức số học có thể không cùng với kiểu dữ liệu của mỗi [operand](http://raboninco.com/1KIZO) (toán hạng).
+Kiểu dữ liệu kết quả của biểu thức số học có thể không cùng với kiểu dữ liệu của mỗi [operand](https://en.wikipedia.org/wiki/Operand) (toán hạng).
 
 Ví dụ:
 
@@ -178,7 +178,7 @@ Python luôn cho ra kết quả là một số thực khi biểu thức số h�
 
 ### Số thực dấu phẩy động: Một số vấn đề và hạn chế
 
-Kết quả của một biểu thức số học với operator (toán tử) dấu phẩy động có thể là  [xấp xỉ](http://raboninco.com/1KIZz):
+Kết quả của một biểu thức số học với operator (toán tử) dấu phẩy động có thể là  [xấp xỉ](https://docs.python.org/3/tutorial/floatingpoint.html):
 
 ```python
 >>> 0.2 - 0.1
@@ -263,7 +263,7 @@ Traceback (most recent call last):
 TypeError: can't multiply sequence by non-int of type 'str'
 ```
 
-Nếu bạn muốn viết biểu thức kết hợp các toán hạng có kiểu không tương thích, bạn cần [cast](http://raboninco.com/1KIae) (chuyển đổi) một trong số các toán hạng đó với các hàm dựng sẵn như [`int()`](http://raboninco.com/1KIb7), [`bool()`](http://raboninco.com/1KIbb), [`float()`](http://raboninco.com/1KIc2), [`str()`](http://raboninco.com/1KIcC).
+Nếu bạn muốn viết biểu thức kết hợp các toán hạng có kiểu không tương thích, bạn cần [cast](https://en.wikipedia.org/wiki/Type_conversion) (chuyển đổi) một trong số các toán hạng đó với các hàm dựng sẵn như [`int()`](https://docs.python.org/3/library/functions.html#int), [`bool()`](https://docs.python.org/3/library/functions.html#bool), [`float()`](https://docs.python.org/3/library/functions.html#float), [`str()`](https://docs.python.org/3/library/functions.html#func-str).
 
 Ví dụ:
 
@@ -365,32 +365,32 @@ _Lưu ý: Tên bạn đặt cho variable phải có nghĩa, tức là tên gọi
 
 | Tên gọi                                                   | Mô tả                                                                        | Ví dụ                       |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------- | ----------------------------- |
-| [Camel Case](http://raboninco.com/1KIcf) | Từ ở vị trí thứ hai trở về sau được viết hoa chữ cái đầu, để dễ dàng phân biệt các từ hơn | `numberOfCollegeGraduates`    |
-| [Pascal Case](http://raboninco.com/1KId1)          | Giống Camel Case, tuy nhiên từ đầu tiên cũng được viết hoa chữ cái đầu                 | `NumberOfCollegeGraduates`    |
-| [Snake Case](http://raboninco.com/1KIdX) | Các từ được phân cách bằng dấu gạch chân                                                 | `number_of_college_graduates` |
+| [Camel Case](https://en.wikipedia.org/wiki/Camel_case) | Từ ở vị trí thứ hai trở về sau được viết hoa chữ cái đầu, để dễ dàng phân biệt các từ hơn | `numberOfCollegeGraduates`    |
+| [Pascal Case](http://wiki.c2.com/?PascalCase)          | Giống Camel Case, tuy nhiên từ đầu tiên cũng được viết hoa chữ cái đầu                 | `NumberOfCollegeGraduates`    |
+| [Snake Case](https://en.wikipedia.org/wiki/Snake_case) | Các từ được phân cách bằng dấu gạch chân                                                 | `number_of_college_graduates` |
 
 
-[Hướng dẫn về kiểu cho Python](http://raboninco.com/1KIe1), còn được biết với tên gọi PEP 8, bao gồm các [quy tắc đặt tên](<https://en.wikipedia.org/wiki/Naming_convention_(programming)>) trong đó gợi ý về các tiêu chuẩn đặt tên cho nhiều kiểu đối tượng khác nhau.
+[Hướng dẫn về kiểu cho Python](https://www.python.org/dev/peps/pep-0008/), còn được biết với tên gọi PEP 8, bao gồm các [quy tắc đặt tên](<https://en.wikipedia.org/wiki/Naming_convention_(programming)>) trong đó gợi ý về các tiêu chuẩn đặt tên cho nhiều kiểu đối tượng khác nhau.
 
-PEP 8 [khuyến nghị](http://raboninco.com/1KIeP) sử dụng **Snake Case** cho tên biến.
+PEP 8 [khuyến nghị](https://www.python.org/dev/peps/pep-0008/#naming-conventions) sử dụng **Snake Case** cho tên biến.
 
-PEP 8 cũng khuyến nghị đối với tên [constants](http://raboninco.com/1KIeo) (hằng) thì viết hoa hết các từ với dấu gạch chân. Ví dụ, `MAX_OVERFLOW` và `TOTAL`.
+PEP 8 cũng khuyến nghị đối với tên [constants](https://www.python.org/dev/peps/pep-0008/#constants) (hằng) thì viết hoa hết các từ với dấu gạch chân. Ví dụ, `MAX_OVERFLOW` và `TOTAL`.
 
 
 _Lưu ý: Trong Python, một hằng chỉ là một variable (biến) như tất cả variables (biến) khác. Một hằng chỉ là một variable (biến) được đặt tên với quy tắc `UPPER_CASE_NAME` (`TÊN_VIẾT_HOA`) mà developer nào cũng hiểu đó là một variable (biến) không thay đổi. Thực tế, bạn vẫn có thể thay đổi giá trị của một variable (biến) “constant” và bất kỳ developer nào đang dùng code của bạn cũng sẽ **ghét** bạn…_
 
 ### Variable Names (Tên biến) vs. Reserved keywords (Từ khóa dành riêng)
 
-Bạn không thể đặt variable names (tên biến) trùng với [reserved keywords](http://raboninco.com/1KIfK) (từ khóa dành riêng) của Python.
+Bạn không thể đặt variable names (tên biến) trùng với [reserved keywords](https://docs.python.org/3/reference/lexical_analysis.html#keywords). (từ khóa dành riêng) của Python.
 
-Bạn KHÔNG NÊN đặt tên biến trùng với tên các Python built-in [functions](http://raboninco.com/1KIfk) (hàm dựng sẵn của Python) vì bạn sẽ không sử dụng được các hàm này nữa.
+Bạn KHÔNG NÊN đặt tên biến trùng với tên các Python built-in [functions](https://docs.python.org/3/library/functions.html#built-in-funcs) (hàm dựng sẵn của Python) vì bạn sẽ không sử dụng được các hàm này nữa.
 
 ### Variable Data Type (Các kiểu dữ liệu biến)
 
 Trở lại ví dụ một biến có thể được xem là một cái hộp.
 Nếu một hộp chứa giá trị `None` thì hộp đó là rỗng.
 
-Khi một hộp không tồn tại, chẳng hạn như khi bạn tham chiếu tới một hộp với tên gọi chưa được xác định, hộp đó được gọi là [**undefined**](http://raboninco.com/1KIfy) (chưa xác định).
+Khi một hộp không tồn tại, chẳng hạn như khi bạn tham chiếu tới một hộp với tên gọi chưa được xác định, hộp đó được gọi là [**undefined**](https://en.wikipedia.org/wiki/Undefined_variable) (chưa xác định).
 
 _Lưu ý: một vài ngôn ngữ lập trình khác dùng thuật ngữ **undeclared** (chưa khai báo) để chỉ ra một variable (biến) chưa được tạo (tức chưa được khai báo) và thuật ngữ **undefined** (chưa xác định) để chỉ ra một variable (biến) chưa được gán bất kỳ giá trị nào nhưng đã được khai báo trong chương trình._
 
@@ -414,7 +414,7 @@ Một variable được gọi là rỗng khi variable đó chứa giá trị `No
 
 Một variable chỉ có thể chứa một dữ liệu trong một thời gian nhất định.
 
-_Lưu ý: Một người không chuyên sẽ nói rằng một variable có thể chứa nhiều dữ liệu, ví dụ một [`list`](http://raboninco.com/1KIgG) (danh sách)… Một `list` (danh sách) có thể chứa nhiều dữ liệu. Nhưng khi bạn gán một `list` cho một biến, nghĩa là bạn đã gán một dữ liệu (chính bản thân đối tượng `list`) cho biến đó, bất kể số lượng các yếu tố (dữ liệu) mà `list` này có thể chứa là bao nhiêu_
+_Lưu ý: Một người không chuyên sẽ nói rằng một variable có thể chứa nhiều dữ liệu, ví dụ một [`list`](https://docs.python.org/3/library/stdtypes.html?#lists) (danh sách)… Một `list` (danh sách) có thể chứa nhiều dữ liệu. Nhưng khi bạn gán một `list` cho một biến, nghĩa là bạn đã gán một dữ liệu (chính bản thân đối tượng `list`) cho biến đó, bất kể số lượng các yếu tố (dữ liệu) mà `list` này có thể chứa là bao nhiêu_
 
 ### Variable Assignment (gán biến): _Syntactic Sugar_ Operators (các cú pháp đặc biệt)
 
@@ -422,7 +422,7 @@ Các operators (toán tử) của phép gán được dùng để gán dữ li�
 
 Bạn đã biết về toán tử =, vốn được dùng để tạo một biến và gán giá trị lần đầu tiên cho biến đó.
 
-Ngoài ra, còn có một số operators gán (toán tử gán) khác, tương đương với toán tử `=`, giúp đơn giản hóa biểu thức và làm cho biểu thức dễ đọc hơn. Chúng ta gọi những toán tử đó là [cú pháp đặc biệt](http://raboninco.com/1KIgY).
+Ngoài ra, còn có một số operators gán (toán tử gán) khác, tương đương với toán tử `=`, giúp đơn giản hóa biểu thức và làm cho biểu thức dễ đọc hơn. Chúng ta gọi những toán tử đó là [cú pháp đặc biệt](https://en.wikipedia.org/wiki/Syntactic_sugar).
 
 
 | Operator  | Ví dụ   | Tương đương với |
@@ -444,7 +444,7 @@ Ngoài ra, còn có một số operators gán (toán tử gán) khác, tương �
 
 Bạn có thể gán cho một biến một dữ liệu thuộc bất kỳ kiểu nào.
 
-_Lưu ý: Python là một [dynamically-typed language](http://raboninco.com/1KIgo) (ngôn ngữ kiểu động). Một biến không bị hạn chế ở một kiểu dữ liệu cụ thể. Bạn có thể khai báo biến mà không cần chỉ rõ bất kỳ kiểu dữ liệu nào. Ngược lại, [Java](<https://en.wikipedia.org/wiki/Java_(programming*language)>) là một [statically-typed language](http://raboninco.com/1KIhK) (ngôn ngữ tĩnh): khi bạn khai báo một biến, bạn phải chỉ rõ kiểu dữ liệu của giá trị mà biến có thể có và bị giới hạn ở đó.*_
+_Lưu ý: Python là một [dynamically-typed language](https://en.wikipedia.org/wiki/Dynamic_programming_language) (ngôn ngữ kiểu động). Một biến không bị hạn chế ở một kiểu dữ liệu cụ thể. Bạn có thể khai báo biến mà không cần chỉ rõ bất kỳ kiểu dữ liệu nào. Ngược lại, [Java](<https://en.wikipedia.org/wiki/Java_(programming*language)>) là một [statically-typed language](https://android.jlelse.eu/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b) (ngôn ngữ tĩnh): khi bạn khai báo một biến, bạn phải chỉ rõ kiểu dữ liệu của giá trị mà biến có thể có và bị giới hạn ở đó.*_
 
 ### Phép gán biến: Gán nhiều lần liên tiếp
 
@@ -490,10 +490,10 @@ Python cung cấp nhiều kiểu dữ liệu giúp ta dễ dàng nhóm các dữ
 
 | Tên gọi                                                                             | Mô tả                                                                                                                                                                                                                                                                                                     | Ví dụ                                                 |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [list](http://raboninco.com/1KIhm)                     | Là một [collection (tập hợp)](http://raboninco.com/1KIi5) các elements (yếu tố) không theo thứ tự và mutable (có thể thay đổi, ngược lại với [immutable - không thể thay đổi](http://raboninco.com/1KIiX)), các yếu tố có thể trùng lặp                                                                                                                                                                                    | `[2, 2, True, 0.65, "Hello!"]`                    |
-| [tuple](http://raboninco.com/1KIjd)                   | Là một collection (tập hợp) các yếu tố không theo thứ tự và [immutable (không thể thay đổi)](http://raboninco.com/1KIiX), các yếu tố có thể trùng lặp                                                                                                                                                                                    | `(False, 1, "Việt Nam", 3.14, False)`                    |
-| [set](http://raboninco.com/1KIkG)    | Là một [collection](http://raboninco.com/1KIkU) (tập hợp) các yếu tố không theo thứ tự và không có yếu tố trùng lặp                                                                                                                                                                                                                  | `{1, 2, 3}`                                                |
-| [dictionary](http://raboninco.com/1KIku) | Là một collection (tập hợp) các cặp [key/value](http://raboninco.com/1KIlE) (khóa/giá trị) không theo thứ tự (ví dụ: [associative array](http://raboninco.com/1KIlZ)); trong [dictionary](http://raboninco.com/1KIlj), mỗi key là duy nhất, mặc dù các yếu tố có thể trùng lặp | `{1: 2.5, 'username': 'haitac', 'is_student': True}` |
+| [list](https://docs.python.org/3/library/stdtypes.html#lists)                     | Là một [collection (tập hợp)](https://en.wikipedia.org/wiki/Immutable_object) các elements (yếu tố) không theo thứ tự và mutable (có thể thay đổi, ngược lại với [immutable - không thể thay đổi](https://www.youtube.com/watch?v=tw7ror9x32s)), các yếu tố có thể trùng lặp                                                                                                                                                                                    | `[2, 2, True, 0.65, "Hello!"]`                    |
+| [tuple](https://docs.python.org/3/library/stdtypes.html#tuples)                   | Là một collection (tập hợp) các yếu tố không theo thứ tự và [immutable (không thể thay đổi)](https://en.wikipedia.org/wiki/Immutable_object), các yếu tố có thể trùng lặp                                                                                                                                                                                    | `(False, 1, "Việt Nam", 3.14, False)`                    |
+| [set](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)    | Là một [collection]([http://raboninco.com/1KIkU](https://www.youtube.com/watch?v=2u_ZExcNBzA)) (tập hợp) các yếu tố không theo thứ tự và không có yếu tố trùng lặp                                                                                                                                                                                                                  | `{1, 2, 3}`                                                |
+| [dictionary]([http://raboninco.com/1KIku](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)) | Là một collection (tập hợp) các cặp [key/value]([http://raboninco.com/1KIlE](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair)) (khóa/giá trị) không theo thứ tự (ví dụ: [associative array]([http://raboninco.com/1KIlZ](https://en.wikipedia.org/wiki/Associative_array))); trong [dictionary]([http://raboninco.com/1KIlj](https://www.youtube.com/watch?v=ZEZdys-fHDw)), mỗi key là duy nhất, mặc dù các yếu tố có thể trùng lặp | `{1: 2.5, 'username': 'haitac', 'is_student': True}` |
 
 Vài ví dụ thông dụng về những cấu trúc dữ liệu trên:
 
@@ -544,13 +544,13 @@ Traceback (most recent call last):
 KeyError: 'fullname'
 ```
 
-Bạn có thể tìm thấy rất nhiều video hướng dẫn trên Internet giải thích cách [lists](http://raboninco.com/1KInT), [tuple](http://raboninco.com/1KIns), [set](http://raboninco.com/1KIoC) và [dictionaries](http://raboninco.com/1KIoU) hoạt động và nhiều video khác cụ thể hơn giải thích làm thế nào để [slice list](http://raboninco.com/1KIos) (cắt danh sách) và các chuỗi trong Python để trích ra một vài yếu tố cụ thể.
+Bạn có thể tìm thấy rất nhiều video hướng dẫn trên Internet giải thích cách [lists](https://www.youtube.com/watch?v=ohCDWZgNIU0), [tuple](https://www.youtube.com/watch?v=NI26dqhs2Rk), [set](https://www.youtube.com/watch?v=sBvaPopWOmQ) và [dictionaries](https://www.youtube.com/watch?v=XCcpzWs-CI4) hoạt động và nhiều video khác cụ thể hơn giải thích làm thế nào để [slice list](https://www.youtube.com/watch?v=ajrtAuDg3yw) (cắt danh sách) và các chuỗi trong Python để trích ra một vài yếu tố cụ thể.
 
 ## Built-In Functions (Các hàm dựng sẵn)
 
-Python hỗ trợ nhiều [built-in functions](http://raboninco.com/1KIWb) (hàm dựng sẵn)
+Python hỗ trợ nhiều [built-in functions](https://docs.python.org/3/library/functions.html). (hàm dựng sẵn)
 
-Hàm dựng sẵn đầu tiên mà bạn cần biết là hàm [`help()`](http://raboninco.com/1KIpf) cho phép [displays the documentation](http://raboninco.com/1KIq1) (hiển thị thông tin) về một hàm cụ thể
+Hàm dựng sẵn đầu tiên mà bạn cần biết là hàm [`help()`](https://docs.python.org/3/library/functions.html#help) cho phép [displays the documentation](https://www.youtube.com/watch?v=BVXv0-1Rcc8) (hiển thị thông tin) về một hàm cụ thể
 
 Ví dụ:
 
@@ -633,9 +633,9 @@ What is your name: Hai tac
 
 ## Các câu lệnh có điều kiện
 
-[Conditional statements](http://raboninco.com/1KIu1) (Các câu lệnh có điều kiện) cho phép nhà phát triển phần mềm [control the flow](http://raboninco.com/1KIuZ) (kiểm soát lưu lượng) chương trình của họ tùy vào các [conditions](http://raboninco.com/1KIuw) (điều kiện)
+[Conditional statements](https://realpython.com/python-conditional-statements/) (Các câu lệnh có điều kiện) cho phép nhà phát triển phần mềm [control the flow](https://en.wikipedia.org/wiki/Control_flow) (kiểm soát lưu lượng) chương trình của họ tùy vào các [conditions](https://www.youtube.com/watch?v=f4KOjWS_KZs). (điều kiện)
 
-[Ví dụ:](http://raboninco.com/1KIvT)
+[Ví dụ:](https://www.youtube.com/watch?v=AWek49wXGzI)
 
 ```python
 >>> age = int(input("How old are you? "))
@@ -651,13 +651,13 @@ What is your name: Hai tac
 
 ## Câu lệnh kiểm soát vòng lặp
 
-Trong Python, [loops statements](http://raboninco.com/1KIw2) (các câu lệnh vòng lặp) cho phép bạn thực hiện một khối mã lệnh (ví dụ: một nhóm các câu lệnh) lặp đi lặp lại chừng nào vẫn thỏa mãn một vài tiêu chí nào đó.
+Trong Python, [loops statements](https://python-textbok.readthedocs.io/en/1.0/Loop_Control_Statements.html) (các câu lệnh vòng lặp) cho phép bạn thực hiện một khối mã lệnh (ví dụ: một nhóm các câu lệnh) lặp đi lặp lại chừng nào vẫn thỏa mãn một vài tiêu chí nào đó.
 
-Có hai [loop statements](http://raboninco.com/1KIwM) (câu lệnh vòng lặp) trong Python: `for` và `while`.
+Có hai [loop statements](https://www.youtube.com/watch?v=94UHCEmprCY) (câu lệnh vòng lặp) trong Python: `for` và `while`.
 
 ### Dòng lệnh `while`
 
-[`while` statement](http://raboninco.com/1KIwz) (dòng lệnh while) giữ một vài phép tính lặp đi lặp lại chừng nào điều kiện vẫn đúng.
+[`while` statement](https://www.youtube.com/watch?v=6TEGxJXLAWQ) (dòng lệnh while) giữ một vài phép tính lặp đi lặp lại chừng nào điều kiện vẫn đúng.
 
  Bây giờ, bạn hãy yêu cầu người sử dụng gõ tên đăng nhập và kiểm tra xem  tên đăng nhập được nhập vào chỉ bao gồm các chữ cái in thường `[a-z]` hay không.
 
@@ -696,9 +696,9 @@ Your username doesn't comply with our requirements!
 
 ### Dòng lệnh `for`
 
-[`for` statement](http://raboninco.com/1KIz6) (dòng lệnh `for`) lặp lại nhiều lần cho một vài bước đã định trước.
+[`for` statement](https://www.youtube.com/watch?v=OnDr4J2UXSA) (dòng lệnh `for`) lặp lại nhiều lần cho một vài bước đã định trước.
 
-Bạn nên dùng lệnh `while` khi bạn không biết trước cần thực hiện nội dung vòng lặp bao nhiêu lần. Ví dụ trước đã dùng sai dòng lệnh `while`, trong khi đáng lẽ nên dùng [`for` statement](http://raboninco.com/1KIzP) như dưới đây:
+Bạn nên dùng lệnh `while` khi bạn không biết trước cần thực hiện nội dung vòng lặp bao nhiêu lần. Ví dụ trước đã dùng sai dòng lệnh `while`, trong khi đáng lẽ nên dùng [`for` statement](https://www.youtube.com/watch?v=iVyWLmQ0QYA) như dưới đây:
 
 ```python
 >>> username = input("Enter your username? ")
@@ -714,14 +714,14 @@ Enter your username? lythanhphu
 
 ### Kiểm soát vòng lặp
 
-Đôi khi, bạn có thể muốn [hoàn toàn thoát khỏi vòng lặp hoặc bỏ qua](http://raboninco.com/1KIzi) một phần nào đó của vòng lặp khi nó đáp ứng một điều kiện cụ thể. Điều này có thể được thực hiện bằng cách sử dụng [loop control statements](http://raboninco.com/1KJ0D) (câu lệnh kiểm soát vòng lặp).
+Đôi khi, bạn có thể muốn [hoàn toàn thoát khỏi vòng lặp hoặc bỏ qua](https://www.youtube.com/watch?v=yCZBnjF4_tU) một phần nào đó của vòng lặp khi nó đáp ứng một điều kiện cụ thể. Điều này có thể được thực hiện bằng cách sử dụng [loop control statements](https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3) (câu lệnh kiểm soát vòng lặp).
 
 
 ## List Comprehensions
 
-[List comprehension](http://raboninco.com/1KJ0h) là một cú pháp xây dựng giúp tạo ra danh sách mới dựa trên các [danh sách đã có](http://raboninco.com/1KJ11).
+[List comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) là một cú pháp xây dựng giúp tạo ra danh sách mới dựa trên các [danh sách đã có](https://www.youtube.com/watch?v=5K08WcjGV6c).
 
-[List comprehensions](http://raboninco.com/1KJ1O) sẽ [hiệu quả hơn](http://raboninco.com/1KJ23) cả về mặt tính toán lẫn về mặt không gian và thời gian viết mã lệnh so với một vòng lặp `for`:
+[List comprehensions](https://www.youtube.com/watch?v=AhSvKGTh28Q) sẽ [hiệu quả hơn](https://towardsdatascience.com/python-basics-list-comprehensions-631278f22c40) cả về mặt tính toán lẫn về mặt không gian và thời gian viết mã lệnh so với một vòng lặp `for`:
 
 ```python
 >>> numbers = [1, 2, 3, 4, 5]
@@ -747,23 +747,23 @@ So với:
 
 Bạn đã học khái niệm tập tin/thư mục và đường dẫn trong nhiệm vụ _Unix Shell Basics_. Đã đến lúc sử dụng những khái niệm này trong Python.
 
-Một [file operation](http://raboninco.com/1KJ2q) (thao tác tập tin) được thực hiện theo thứ tự sau.
+Một [file operation](https://realpython.com/read-write-files-python/) (thao tác tập tin) được thực hiện theo thứ tự sau.
 
-- [Open](http://raboninco.com/1KJ3B) (Mở) một tập tin
+- [Open](https://docs.python.org/3/library/functions.html#open) (Mở) một tập tin
 - Đọc hoặc viết
 - Đóng tập tin
 
 https://www.programiz.com/python-programming/file-operation
 
-Có hai loại tập tin: tập tin văn bản và tập tin nhị phân. Chúng ta sẽ chủ yếu tập trung vào [text files](http://raboninco.com/1KJ3n) (tập tin văn bản).
+Có hai loại tập tin: tập tin văn bản và tập tin nhị phân. Chúng ta sẽ chủ yếu tập trung vào [text files](https://www.youtube.com/watch?v=4mX0uPQFLDU). (tập tin văn bản).
 
-Khi chúng ta xử lý các tập tin và thư mục, phần lớn thời gian là xử lý với đường dẫn. Python cung cấp [`os` module](http://raboninco.com/1KJ4Q) (mô đun `os`), module này cung cấp các hàm để tương tác với hệ điều hành; và module [`os.path`](http://raboninco.com/1KJ4z), module này cung cấp các hàm để [xử lý đường dẫn](http://raboninco.com/1KJ3n).
+Khi chúng ta xử lý các tập tin và thư mục, phần lớn thời gian là xử lý với đường dẫn. Python cung cấp [`os` module](https://docs.python.org/3/library/os.html) (mô đun `os`), module này cung cấp các hàm để tương tác với hệ điều hành; và module [`os.path`](https://docs.python.org/3/library/os.path.html#module-os.path), module này cung cấp các hàm để [xử lý đường dẫn](https://www.youtube.com/watch?v=tJxcKyFMTGo).
 
 _Lưu ý: Có thể bạn vẫn chưa quen với các modules của Python. Chúng tôi sẽ giới thiệu các modules này ở phần dưới._
 
 ## Functions (hàm)
 
-Một [**function**](http://raboninco.com/1KJ63) (hàm) là một khối mã lệnh, có thể tái sử dụng và được dùng để thực hiện một hành động. Hàm có tính module cao và có thể sử dụng lại nhiều lần trong một phần mềm ứng dụng.
+Một [**function**](https://www.youtube.com/watch?v=NSbOtYzIQI0) (hàm) là một khối mã lệnh, có thể tái sử dụng và được dùng để thực hiện một hành động. Hàm có tính module cao và có thể sử dụng lại nhiều lần trong một phần mềm ứng dụng.
 
 
 ![Function Basic Principle](function_basic_principle.png)
@@ -781,13 +781,13 @@ Ví dụ:
 ...     pass
 ```
 
-Tên hàm của bạn phải [có nghĩa](http://raboninco.com/1KJ6f), có tính "tự giải thích".
+Tên hàm của bạn phải [có nghĩa](https://dmitripavlutin.com/coding-like-shakespeare-practical-function-naming-conventions/), có tính "tự giải thích".
 
 ### Function Parameters (Các tham số của hàm)
 
 Một **parameter** (tham số) là một local **variable** (biến cục bộ) được định nghĩa cho phạm vi của một hàm và giá trị của nó được xác định bởi mã lệnh thực hiện hàm này.
 
-Ví dụ, hãy tạo một hàm trả về [Fibonacci series](http://raboninco.com/1KJ7B) (dãy Fibonacci) tới một giá trị cụ thể:
+Ví dụ, hãy tạo một hàm trả về [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number) (dãy Fibonacci) tới một giá trị cụ thể:
 
 
 ```python
@@ -821,11 +821,11 @@ Ví dụ, hàm `fibonacci_series` có thể được gọi như sau:
 
 Các giá trị được truyền khi gọi hàm để đặt các tham số cho hàm đó, được gọi là **argument** (đối số).
 
-_Lưu ý: trong lập trình máy tính, có [nhiều cách để truyền một đối số đến một hàm](http://raboninco.com/1KJ7u), [**pass by value** và **pass by reference**](http://raboninco.com/1KJ8N) (**truyền theo giá trị** và **truyền theo tham chiếu**)._
+_Lưu ý: trong lập trình máy tính, có [nhiều cách để truyền một đối số đến một hàm](https://en.wikipedia.org/wiki/Evaluation_strategy), [**pass by value** và **pass by reference**](https://www.mathwarehouse.com/programming/passing-by-value-vs-by-reference-visual-explanation.php) (**truyền theo giá trị** và **truyền theo tham chiếu**)._
 
 ![Pass by Reference v.s. Pass by Value](pass-by-reference-vs-pass-by-value.gif)
 
-Trong bài hướng dẫn này, chúng ta không [thảo luận](http://raboninco.com/1KJ8s) liệu Python truyền đối số [theo giá trị hay theo tham chiếu](http://raboninco.com/1KJ9H). Chỉ cần biết rằng, khi truyền đối số tới một hàm, hàm này có thể [biến đổi các mutable objects (đối tượng có thể thay đổi)](http://raboninco.com/1KJ9v) đã được truyền.
+Trong bài hướng dẫn này, chúng ta không [thảo luận](https://www.quora.com/Are-arguments-passed-by-value-or-by-reference-in-Python) liệu Python truyền đối số [theo giá trị hay theo tham chiếu](https://www.python-course.eu/passing_arguments.php). Chỉ cần biết rằng, khi truyền đối số tới một hàm, hàm này có thể [biến đổi các mutable objects (đối tượng có thể thay đổi)](https://docs.python.org/3/tutorial/controlflow.html#id2) đã được truyền.
 
 Ví dụ:
 
@@ -843,7 +843,7 @@ Ví dụ:
 
 Một **function** (hàm) có thể trả về một hoặc nhiều giá trị.
 
-Câu lệnh [`return`](http://raboninco.com/1KJAQ) (trả về) được sử dụng để định nghĩa giá trị trả về khi hàm được gọi.
+Câu lệnh [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) (trả về) được sử dụng để định nghĩa giá trị trả về khi hàm được gọi.
 
 Ví dụ:
 
@@ -875,22 +875,22 @@ True
 
 ### Function Documentation (Tư liệu về hàm)
 
-Trong lập trình phần mềm, [tư liệu của mã lệnh](http://raboninco.com/1KJAw) quan trọng hơn bản thân mã lệnh đó.
+Trong lập trình phần mềm, [tư liệu của mã lệnh](https://realpython.com/documenting-python-code/) quan trọng hơn bản thân mã lệnh đó.
 
-Python, cũng như các ngôn ngữ lập trình khác, xác định quy tắc để lập tư liệu cho hàm bằng cách sử dụng [docstrings](http://raboninco.com/1KJBG) ([PEP-257](http://raboninco.com/1KJBs)).
+Python, cũng như các ngôn ngữ lập trình khác, xác định quy tắc để lập tư liệu cho hàm bằng cách sử dụng [docstrings](https://docs.python.org/3/tutorial/controlflow.html#tut-docstrings) ([PEP-257](https://www.python.org/dev/peps/pep-0257/)).
 
 Tuy nhiên, Python không buộc bạn phải sử dụng một dạng `dosctring` đặc biệt. Python cho phép vài dạng `dosctring` khác nhau. Dưới đây là một vài dạng phổ biến:
 
 | Kiểu định dạng                                                                                               | Mô tả                                                                    | Đặc tả hình thức? |
 | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------- |
-| [Google docstrings](http://raboninco.com/1KJCG) | Định dạng được khuyến nghị của Google                                     | Không                    |
-| [reStructured Text](http://raboninco.com/1KJCk)                                                 | Chuẩn tư liệu Python chính thức; không thân thiện với người mới nhập môn nhưng có nhiều tính năng | Có                   |
-| [NumPy/SciPy docstrings](http://raboninco.com/1KJD6)                               | NumPy là sự kết hợp giữa reStructured và Google docstrings                       | Có                   |
-| [Epytext](http://raboninco.com/1KJDY)                                                         | Một bản chuyển thể Python của Epydoc; rất phù hợp cho các developers đã quen với Java                       | Có                   |
+| [Google docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings) | Định dạng được khuyến nghị của Google                                     | Không                    |
+| [reStructured Text](http://docutils.sourceforge.net/rst.html)                                                 | Chuẩn tư liệu Python chính thức; không thân thiện với người mới nhập môn nhưng có nhiều tính năng | Có                   |
+| [NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html)                               | NumPy là sự kết hợp giữa reStructured và Google docstrings                       | Có                   |
+| [Epytext](http://epydoc.sourceforge.net/epytext.html)                                                         | Một bản chuyển thể Python của Epydoc; rất phù hợp cho các developers đã quen với Java                       | Có                   |
 
 Việc lựa chọn định dạng docstring tùy thuộc vào bạn, nhưng bạn nên giữ nguyên một định dạng trong suốt dự án.
 
-Ví dụ, nếu sử dụng định dạng [`epytext` format](http://raboninco.com/1KJDv), chúng ta có thể lập tư  liệu cho hàm `fibonacci_series` như sau:
+Ví dụ, nếu sử dụng định dạng [`epytext` format](http://epydoc.sourceforge.net/manual-fields.html), chúng ta có thể lập tư  liệu cho hàm `fibonacci_series` như sau:
 
 ```python
 def fibonacci_series(n):
@@ -908,7 +908,7 @@ def fibonacci_series(n):
         a, b = b, a + b
     return series
 ```
-Khi bạn viết một tư liệu dài về hàm, bạn nên giới hạn khối văn bản (hay “đoạn”) theo [chiều dài dòng](http://raboninco.com/1KJEK) tối đa. [Một dòng với 66 ký tự](http://raboninco.com/1KJEp) (kể cả chữ cái và khoảng cách) được nhiều người xem là lý tưởng.
+Khi bạn viết một tư liệu dài về hàm, bạn nên giới hạn khối văn bản (hay “đoạn”) theo [chiều dài dòng](https://en.wikipedia.org/wiki/Line_length) tối đa. [Một dòng với 66 ký tự](http://webtypography.net/2.1.2) (kể cả chữ cái và khoảng cách) được nhiều người xem là lý tưởng.
 
 Bất kỳ tư liệu nào dài từ 66 đến 70 ký tự, kể cả ký tự hash `#` để bắt đầu một dòng nhận xét, đều được xem là chiều dài dòng hợp lý. Ví dụ:
 
@@ -956,11 +956,11 @@ def string_to_macaddr(value, strict=False):
 
 ## Xử lý tình huống Exception (ngoại lệ)
 
-Mô tả hành vi của một chương trình được chia thành hai phần: những gì diễn ra trong tình huống bình thường và những gì diễn ra trong [tình huống ngoại lệ](http://raboninco.com/1KJFO).
+Mô tả hành vi của một chương trình được chia thành hai phần: những gì diễn ra trong tình huống bình thường và những gì diễn ra trong [tình huống ngoại lệ](https://www.youtube.com/watch?v=nlCKrKGHSSk).
 
 ### Raising an Exception (thông báo ngoại lệ)
 
-Ví dụ về một tình huống ngoại lệ là [yêu cầu người dùng cung cấp](http://raboninco.com/1KJFd) một số nguyên và gọi hàm `fibonacci_series` với dữ liệu được nhập bởi người dùng:
+Ví dụ về một tình huống ngoại lệ là [yêu cầu người dùng cung cấp](https://docs.python.org/3/library/functions.html#input) một số nguyên và gọi hàm `fibonacci_series` với dữ liệu được nhập bởi người dùng:
 
 ```python
 >>> n = input("Enter an integer? ")
@@ -1037,7 +1037,7 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: 'foo.txt'
 ```
 
-Bạn sẽ dễ dàng bắt giữ ngoại lệ này với câu lệnh [`try` và `except` statements](http://raboninco.com/1KJGn), và chương trình vẫn sẽ tiếp tục:
+Bạn sẽ dễ dàng bắt giữ ngoại lệ này với câu lệnh [`try` và `except` statements](https://realpython.com/python-exceptions/), và chương trình vẫn sẽ tiếp tục:
 
 ```python
 >>> while True:
@@ -1056,11 +1056,11 @@ Enter the name of the file to read?
 
 ### Standard Modules (Các mô đun chuẩn)
 
-Python có rất nhiều hàm được tổ chức thành các [modules](http://raboninco.com/1KJH3) (mô đun). Một module là một tập tin chứa mã lệnh Python như các hàm và hằng. Module là cách để chia sẻ và dùng lại mã lệnh liên quan tới một đối tượng cụ thể: công thức toán, ngày và giờ, đường dẫn, biểu thức thông thường, mạng, v.v.
+Python có rất nhiều hàm được tổ chức thành các [modules](https://docs.python.org/3/py-modindex.html) (mô đun). Một module là một tập tin chứa mã lệnh Python như các hàm và hằng. Module là cách để chia sẻ và dùng lại mã lệnh liên quan tới một đối tượng cụ thể: công thức toán, ngày và giờ, đường dẫn, biểu thức thông thường, mạng, v.v.
 
-Để dùng các hàm và hằng được định nghĩa trong một module, trước hết bạn phải [import module](http://raboninco.com/1KJHS) (nhập mô đun) này. Dòng lệnh [`import`](https://docs.python.org/3/reference/import.html) (nhập) giúp thực hiện điều này một cách dễ dàng.
+Để dùng các hàm và hằng được định nghĩa trong một module, trước hết bạn phải [import module](https://www.codementor.io/sheena/python-path-virtualenv-import-for-beginners-du107r3o1) (nhập mô đun) này. Dòng lệnh [`import`](https://docs.python.org/3/reference/import.html) (nhập) giúp thực hiện điều này một cách dễ dàng.
 
-Chẳng hạn, [module `math`](http://raboninco.com/1KJHv) (mô đun toán) cung cấp nhiều hàm toán học và [constants](http://raboninco.com/1KJIA) (hằng) mà bạn có thể dùng trong mã lệnh của riêng bạn:
+Chẳng hạn, [module `math`](https://docs.python.org/3/library/math.html) (mô đun toán) cung cấp nhiều hàm toán học và [constants](https://docs.python.org/3/library/math.html#constants) (hằng) mà bạn có thể dùng trong mã lệnh của riêng bạn:
 
 ```python
 >>> import math
@@ -1074,7 +1074,7 @@ _Lưu ý: Trước khi lập trình một hàm, bạn PHẢI kiểm tra xem Pyth
 
 ### Third-Party Packages (Các gói phát triển bởi bên thứ ba)
 
-Dù [Thư viện chuẩn của Python](http://raboninco.com/1KJIV) có rất nhiều modules và nhiều hàm được dùng phổ biến trong các phần mềm Python, nhưng vẫn không đủ các hàm liên quan tới những lĩnh vực đặc thù như [computer vision](http://raboninco.com/1KJIn), [machine learning](http://raboninco.com/1KJJN), [web server development](http://raboninco.com/1KJJy), [image processing](http://raboninco.com/1KJKE) (xử lý hình ảnh) và nhiều lĩnh vực khác.
+Dù [Thư viện chuẩn của Python](https://docs.python.org/3/library/) có rất nhiều modules và nhiều hàm được dùng phổ biến trong các phần mềm Python, nhưng vẫn không đủ các hàm liên quan tới những lĩnh vực đặc thù như [computer vision](https://opencv.org/), [machine learning](https://www.tensorflow.org/), [web server development](https://www.djangoproject.com/), [image processing](https://python-pillow.org/) (xử lý hình ảnh) và nhiều lĩnh vực khác.
 
 Rất nhiều developers đã đóng góp thêm nhiều hàm mới cho Python.
 
@@ -1084,9 +1084,9 @@ Một vài lĩnh vực phức tạp đến mức các nhóm developers không th
 
 Có nhiều gói Python phát triển bởi bên thứ ba miễn phí trên mạng Internet. Bạn có thể tìm thấy các gói đó trên [GitHub](https://github.com/), một dịch vụ trực tuyến lưu trữ dự án [phần mềm công cộng miễn phí](https://en.wikipedia.org/wiki/Open_source).
 
-Nhưng trước khi có thể sử dụng gói Python bởi bên thứ ba, bạn phải cài đặt nó lên máy. Bạn có thể tải các tập tin nguồn từ GitHub và cài đặt thủ công. Tuy nhiên, hiện nay, sử dụng [`pip`](http://raboninco.com/1KJKg) sẽ dễ dàng hơn. Pip là một hệ thống quản lý gói dùng để cài đặt và quản lý gói phần mềm được viết bằng Python.
+Nhưng trước khi có thể sử dụng gói Python bởi bên thứ ba, bạn phải cài đặt nó lên máy. Bạn có thể tải các tập tin nguồn từ GitHub và cài đặt thủ công. Tuy nhiên, hiện nay, sử dụng [`pip`](https://pip.pypa.io) sẽ dễ dàng hơn. Pip là một hệ thống quản lý gói dùng để cài đặt và quản lý gói phần mềm được viết bằng Python.
 
-Các nhà phát triển phần mềm Python phân phối các gói Python của mình vào [PyPi](http://raboninco.com/1KJLM). Pypi là kho lưu trữ phần mềm cho ngôn ngữ lập trình Python. Sau đó, các nhà phát triển phần mềm khác có thể cài đặt những gói này bằng cách sử dụng [`pip` command](http://raboninco.com/1KJLm) (lệnh pip).
+Các nhà phát triển phần mềm Python phân phối các gói Python của mình vào [PyPi](https://pypi.org/). Pypi là kho lưu trữ phần mềm cho ngôn ngữ lập trình Python. Sau đó, các nhà phát triển phần mềm khác có thể cài đặt những gói này bằng cách sử dụng [`pip` command](https://packaging.python.org/tutorials/installing-packages/#installing-from-pypi). (lệnh pip).
 
 Ví dụ:
 
@@ -1099,7 +1099,7 @@ Installing collected packages: pillow
 Successfully installed pillow-6.0.0
 ```
 
-Giờ bạn có thể sử dụng [`pillow` library](http://raboninco.com/1KJMH) (thư viện pillow) như dưới đây.
+Giờ bạn có thể sử dụng [`pillow` library](https://pillow.readthedocs.io/en/stable/) (thư viện pillow) như dưới đây.
 
 
 ```python
@@ -1116,7 +1116,7 @@ Giờ bạn có thể sử dụng [`pillow` library](http://raboninco.com/1KJMH)
 
 Là một developer, bạn sẽ có thể cùng lúc hoặc lần lượt làm nhiều dự án Python trên cùng một máy tính. Bạn sẽ cài đặt nhiều gói Python bởi bên thứ ba mà các dự án cần đến.
 
-`Pip` sẽ mặc định cài đặt các gói Python bên thứ ba vào một [global directory](http://raboninco.com/1KJMf) (thư mục tổng):
+`Pip` sẽ mặc định cài đặt các gói Python bên thứ ba vào một [global directory](https://docs.python.org/3.3/install/index.html) (thư mục tổng):
 
 ```python
 >>> import site
@@ -1130,11 +1130,11 @@ Là một developer, bạn sẽ có thể cùng lúc hoặc lần lượt làm n
 
 Phương pháp cài đặt gói Python bên thứ ba dẫn tới một vài vấn đề lớn.
 
-Ví dụ: bạn đang làm việc trên hai trang web dùng hai phiên bản [Django](http://raboninco.com/1KJJy) khác nhau, một trang web kế thừa sử dụng [Django 1.8](http://raboninco.com/1KJOL) và một trang web mới dùng [Django 2.2](http://raboninco.com/1KJNm). Django là một web framework mã nguồn mở và miễn phí dựa trên Python. Lúc này, bạn chỉ còn nước đập đầu vào tường: Django 2.0 có vài thay đổi lớn khiến nó không thể tương thích với Django 1.8!
+Ví dụ: bạn đang làm việc trên hai trang web dùng hai phiên bản [Django](https://www.djangoproject.com/) khác nhau, một trang web kế thừa sử dụng [Django 1.8](https://docs.djangoproject.com/en/1.8/) và một trang web mới dùng [Django 2.2](https://docs.djangoproject.com/en/2.2/). Django là một web framework mã nguồn mở và miễn phí dựa trên Python. Lúc này, bạn chỉ còn nước đập đầu vào tường: Django 2.0 có vài thay đổi lớn khiến nó không thể tương thích với Django 1.8!
 
 Nếu cài đặt Django 1.8, bạn không thể phát triển trang web mới kia. Nếu bạn nâng cấp lên Django 2.2 để phát triển trang web mới, mã lệnh của bạn cho trang web kế thừa đang dùng bản 1.8 sẽ không chạy được nữa.
 
-Bạn cần cách ly từng công việc phát triển dự án phần mềm vào một môi trường riêng (ví dụ [virtual environment](http://raboninco.com/1KJOo) - môi trường ảo), để bạn có thể cài đặt các thư viện Python với đúng phiên bản cụ thể mà từng dự án phần mềm cần đến. Mỗi dự án sẽ có các depedencies (đối tượng phụ thuộc) riêng, bất kể các dự án khác có các depedencies (đối tượng phụ thuộc) như thế nào.
+Bạn cần cách ly từng công việc phát triển dự án phần mềm vào một môi trường riêng (ví dụ [virtual environment](https://realpython.com/python-virtual-environments-a-primer/) - môi trường ảo), để bạn có thể cài đặt các thư viện Python với đúng phiên bản cụ thể mà từng dự án phần mềm cần đến. Mỗi dự án sẽ có các depedencies (đối tượng phụ thuộc) riêng, bất kể các dự án khác có các depedencies (đối tượng phụ thuộc) như thế nào.
 
 Nói đơn giản, môi trường ảo là bản sao làm việc cách ly của Python cho phép bạn làm việc trên một dự án cụ thể mà không sợ tác động đến dự án khác.
 
@@ -1144,14 +1144,14 @@ Là một developer, ngoài việc cần phát triển dự án phần mềm mà
 
 Mã lệnh dự án của chúng ta thường phụ thuộc vào các thư viện Python bởi bên thứ ba. Bất kỳ developer nào muốn sử dụng sản phẩm do chúng ta phát triển cũng cần phải cài đặt những thư viện này. Nhưng làm cách nào để liệt kê các thư việc này với phiên bản cụ thể cho dự án? Làm cách nào để cài đặt tự động những thư viện này?
 
-[Pipenv](http://raboninco.com/1KJP9) giải quyết những vấn đề này:
+[Pipenv](https://realpython.com/pipenv-guide/) giải quyết những vấn đề này:
 
 1.	Tạo môi trường cách ly cho dự án phần mềm;
 2.	Cài đặt thư viện bên thứ ba với phiên bản cụ thể (phiên bản mà bạn dùng để phát triển phần mềm của mình);
 3.	Duy trì theo dõi tất cả thư viện bên thứ ba mà dự án của bạn phụ thuộc vào;
 4.	Cài đặt tất cả depedencies (đối tượng phụ thuộc) cho dự án (khi có developer  khác muốn sử dụng dự án của bạn).
 
-Trước tiên, bạn cần [install `pipenv`](http://raboninco.com/1KJPU) (cài đặt pipenv) bằng cách sử dụng pip:
+Trước tiên, bạn cần [install `pipenv`](https://www.youtube.com/watch?v=6Qmnh5C4Pmo) (cài đặt pipenv) bằng cách sử dụng pip:
 
 ```bash
 $ pip install pipenv
@@ -1248,4 +1248,4 @@ django = "*"
 python_version = "3.5"
 ```
 
-_Lưu ý: **bạn sẽ nen sử dụng `pipenv`** cho tất cả các nhiệm vụ mà bạn tham gia. Không phải là [NÊN SỬ DỤNG](http://raboninco.com/1KJRW), mà là [**PHẢI SỬ DỤNG**](http://raboninco.com/1KJT6). Nếu không có tập Pipfile nào trong dự án Python của bạn => **-_-**!_
+_Lưu ý: **bạn sẽ nen sử dụng `pipenv`** cho tất cả các nhiệm vụ mà bạn tham gia. Không phải là [NÊN SỬ DỤNG](https://innolution.com/resources/glossary/nice-to-have-features), mà là [**PHẢI SỬ DỤNG**](https://innolution.com/resources/glossary/must-have-features). Nếu không có tập Pipfile nào trong dự án Python của bạn => **-_-**!_
